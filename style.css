@@ -1,0 +1,218 @@
+body {
+  scroll-behavior: smooth;
+}
+
+* {
+  scroll-behavior: smooth;
+}
+
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+  font-family: "Montserrat", sans-serif;
+}
+
+/* HTML5 display-role reset for older browsers */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  display: block;
+}
+
+body {
+  line-height: 1;
+}
+
+ol,
+ul {
+  list-style: none;
+}
+
+blockquote,
+q {
+  quotes: none;
+}
+
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+  content: "";
+  content: none;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+.container {
+  max-width: 1300px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+.banner {
+  background: url(assets/background.png);
+  padding: 235px 0px;
+}
+
+.title {
+  font-size: 58px;
+  font-weight: bold;
+  text-align: center;
+  color: #192451;
+  text-transform: uppercase;
+  line-height: 72px;
+}
+
+.title b {
+  background-color: #D8B770;
+  color: white;
+}
+
+.sect-1 {
+  padding: 75px 0;
+}
+
+.sect-1 h1 {
+  font-size: 58px;
+  font-weight: bold;
+  text-align: center;
+  color: #192451;
+  text-transform: uppercase;
+  line-height: 72px;
+}
+
+.sect-1 h1 b {
+  background-color: #D8B770;
+  color: white;
+}
+
+.sect-1 .services {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-top: 60px;
+}
+
+.sect-1 .services .left-side {
+  -webkit-box-flex: 0;
+      -ms-flex: 0 0 50%;
+          flex: 0 0 50%;
+}
+
+.sect-1 .services .left-side p {
+  font-size: 30px;
+  color: #192451;
+  line-height: 40px;
+}
+
+.sect-2 {
+  padding: 75px 0;
+  background: url(assets/background-tecido.png);
+}
+
+.sect-2 p {
+  margin-top: 60px;
+  color: #192451;
+  font-size: 38px;
+  line-height: 45px;
+}
+
+.sect-2 p b {
+  font-weight: 500;
+}
+/*# sourceMappingURL=style.css.map */
