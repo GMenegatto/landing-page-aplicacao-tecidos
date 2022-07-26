@@ -183,7 +183,7 @@ table {
             cursor: pointer;
 
             div {
-                font-size: 20px;
+                font-size: 28px;
                 font-weight: 600;
                 color: #252525;
                 background-color: #D8B770;
@@ -253,7 +253,7 @@ table {
 
         b {
             background-color: white;
-            color: #D8B770;
+            color: #192451;
         }
     }
 }
@@ -423,6 +423,13 @@ table {
             display: flex;
             margin-bottom: 55px;
             flex: 0 0 48%;
+            transition: all 0.5s cubic-bezier(0.19, 1, 0.22, 1);
+
+            &:hover {
+                -webkit-transform: translateY(-8px);
+                transform: translateY(-8px);
+                -webkit-transition: all 0.5s cubic-bezier(0.19, 1, 0.22, 1);
+            }
 
 
             .module {

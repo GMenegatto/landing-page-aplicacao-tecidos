@@ -190,7 +190,7 @@ table {
 }
 
 .banner .left-side a div {
-  font-size: 20px;
+  font-size: 28px;
   font-weight: 600;
   color: #252525;
   background-color: #D8B770;
@@ -255,7 +255,7 @@ table {
 
 .title.white b {
   background-color: white;
-  color: #D8B770;
+  color: #192451;
 }
 
 .sect-1 .services {
@@ -459,6 +459,14 @@ table {
   -webkit-box-flex: 0;
       -ms-flex: 0 0 48%;
           flex: 0 0 48%;
+  -webkit-transition: all 0.5s cubic-bezier(0.19, 1, 0.22, 1);
+  transition: all 0.5s cubic-bezier(0.19, 1, 0.22, 1);
+}
+
+.sect-course-content .contents .course-content:hover {
+  -webkit-transform: translateY(-8px);
+  transform: translateY(-8px);
+  -webkit-transition: all 0.5s cubic-bezier(0.19, 1, 0.22, 1);
 }
 
 .sect-course-content .contents .course-content .module {
