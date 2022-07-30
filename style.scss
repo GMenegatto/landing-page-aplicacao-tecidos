@@ -708,13 +708,21 @@ table {
         }
 
         h4 {
-            font-size: 78px;
+            position: relative;
             font-weight: bold;
             font-family: 'Inter';
             margin: 25px 0;
+            display: flex;
 
-            b {
-                background-color: #E00D2A;
+            span {
+                font-size: 78px;
+            }
+
+            p{
+                opacity: 1;
+                position: relative;
+                z-index: 2;
+                font-size: 78px;
                 color: white;
             }
         }
@@ -871,5 +879,23 @@ footer {
     &.active {
         transform: translateY(0px);
         opacity: 1;
+    }
+}
+
+.highlight {
+    &::before {
+        display: block;
+        content: '';
+        width: 20px;
+        height: 98px;
+        background-color: #E00D2A;
+        transition: 1s all ease;
+        position: absolute;
+        z-index: 1;
+        top: -8px;
+    }
+
+    &.active::before {
+        width: 294px;
     }
 }

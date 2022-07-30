@@ -753,14 +753,24 @@ table {
 }
 
 .sect-8 .oferta h4 {
-  font-size: 78px;
+  position: relative;
   font-weight: bold;
   font-family: 'Inter';
   margin: 25px 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
 }
 
-.sect-8 .oferta h4 b {
-  background-color: #E00D2A;
+.sect-8 .oferta h4 span {
+  font-size: 78px;
+}
+
+.sect-8 .oferta h4 p {
+  opacity: 1;
+  position: relative;
+  z-index: 2;
+  font-size: 78px;
   color: white;
 }
 
@@ -918,5 +928,22 @@ footer .container h4 {
   -webkit-transform: translateY(0px);
           transform: translateY(0px);
   opacity: 1;
+}
+
+.highlight::before {
+  display: block;
+  content: '';
+  width: 20px;
+  height: 98px;
+  background-color: #E00D2A;
+  -webkit-transition: 1s all ease;
+  transition: 1s all ease;
+  position: absolute;
+  z-index: 1;
+  top: -8px;
+}
+
+.highlight.active::before {
+  width: 294px;
 }
 /*# sourceMappingURL=style.css.map */
