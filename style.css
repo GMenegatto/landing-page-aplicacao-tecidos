@@ -904,4 +904,19 @@ footer .container h4 {
   font-size: 24px;
   color: white;
 }
+
+.reveal {
+  position: relative;
+  -webkit-transform: translateY(100px);
+          transform: translateY(100px);
+  opacity: 0;
+  -webkit-transition: all 1.2s ease;
+  transition: all 1.2s ease;
+}
+
+.reveal.active {
+  -webkit-transform: translateY(0px);
+          transform: translateY(0px);
+  opacity: 1;
+}
 /*# sourceMappingURL=style.css.map */
