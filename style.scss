@@ -515,7 +515,7 @@ table {
 
                 &.bonus {
                     padding: 33px 35px;
-                    
+
 
                     i {
                         margin-top: 15px;
@@ -599,6 +599,7 @@ table {
         margin: 0 auto;
         margin-top: 60px;
         display: block;
+
         img {
             max-width: 100%;
         }
@@ -643,7 +644,9 @@ table {
         display: block;
     }
 
-
+    img {
+        max-width: 100%;
+    }
 
 
 }
@@ -718,7 +721,7 @@ table {
                 font-size: 78px;
             }
 
-            p{
+            p {
                 opacity: 1;
                 position: relative;
                 z-index: 2;
@@ -897,5 +900,136 @@ footer {
 
     &.active::before {
         width: 294px;
+    }
+}
+
+@media only screen and (max-width: 1290px) {
+
+    .banner {
+        padding: 82px 0px;
+    }
+
+    .title {
+        font-size: 38px;
+        line-height: 50px;
+    }
+
+    .banner .left-side a div {
+        font-size: 24px;
+    }
+
+    .sect-2 p {
+        font-size: 18px;
+    }
+
+    .sect-1 .services .left-side p {
+        font-size: 18px;
+    }
+
+    .subtitle {
+        font-size: 18px;
+    }
+
+    .sect-course-content .contents .course-content .module-classes {
+
+        gap: 5px;
+
+        p {
+            font-size: 18px;
+        }
+    }
+
+    .sect-4 .method h3 {
+        font-size: 24px;
+    }
+
+    .sect-4 .method p {
+        font-size: 18px;
+    }
+
+    .sect-6 p {
+        font-size: 24px;
+    }
+}
+
+@media only screen and (max-width: 1065px) {
+    .container {
+        max-width: 360px;
+    }
+
+    .banner .left-side {
+        max-width: 100%;
+
+        flex: 0 0 100%;
+    }
+
+    .banner .left-side a div {
+        font-size: 18px;
+    }
+
+    .title {
+        font-size: 28px;
+        line-height: 36px;
+    }
+
+    .sect-1 .services .left-side {
+        flex-direction: column;
+
+        .infos {
+            flex-direction: column;
+
+            p {
+                max-width: 100%;
+                flex: 0 0 100%;
+            }
+        }
+    }
+
+    .sect-2 .container {
+        flex-direction: column;
+    }
+
+    .sect-2 h2 {
+        text-align: center;
+    }
+
+    .sect-2 .left-side {
+        display: none;
+    }
+
+    .title-icon {
+        text-align: center;
+    }
+
+    .sect-course-content .course-info {
+        flex-direction: column;
+        margin: 20px 0;
+
+        .column {
+            max-width: 100%;
+            flex: 0 0 100%;
+
+            .badge {
+                width: 100%;
+                margin-bottom: 20px;
+            }
+        }
+    }
+
+    .sect-course-content .contents {
+        flex-direction: column;
+        .course-content {
+            flex-direction: column;
+
+            .module-classes {
+                padding: 30px 30px;
+                border-radius: 0 0 20px 20px;
+            }
+
+            .module {
+                border-radius: 20px 20px 0 0;
+                padding: 27px 15px;
+            }
+        }
     }
 }
