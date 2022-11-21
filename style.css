@@ -165,6 +165,9 @@ table {
 
 .banner {
   background-color: #192451;
+  background: url(assets/CAPA_TECIDO.png);
+  background-size: cover;
+  background-repeat: no-repeat;
   padding: 235px 0px;
   background-size: cover;
   background-repeat: no-repeat;
@@ -682,6 +685,10 @@ table {
   margin-top: 60px;
 }
 
+.sect-6 .stars img {
+  max-width: 100%;
+}
+
 .sect-7 i {
   font-size: 58px;
   color: white;
@@ -748,6 +755,10 @@ table {
   max-width: max-content;
   display: block;
   text-align: center;
+}
+
+.sect-8 .oferta b {
+  text-decoration: line-through;
 }
 
 .sect-8 .oferta p {
@@ -901,6 +912,7 @@ table {
 footer {
   background-color: #192451;
   padding: 60px 0;
+  text-align: center;
 }
 
 footer .container {
@@ -992,6 +1004,10 @@ footer .container h4 {
   .container {
     max-width: 360px;
   }
+  .banner {
+    background-image: none;
+    background-color: #192451;
+  }
   .banner .left-side {
     max-width: 100%;
     -webkit-box-flex: 0;
@@ -1016,6 +1032,7 @@ footer .container h4 {
     -webkit-box-direction: normal;
         -ms-flex-direction: column;
             flex-direction: column;
+    margin: 0;
   }
   .sect-1 .services .left-side .infos p {
     max-width: 100%;
@@ -1074,6 +1091,25 @@ footer .container h4 {
   .sect-course-content .contents .course-content .module {
     border-radius: 20px 20px 0 0;
     padding: 27px 15px;
+  }
+  .sect-8 .oferta h4 {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .sect-8 .oferta h4 span {
+    margin-bottom: 15px;
+  }
+  .sect-8 .oferta h4 .highlight::before {
+    top: 85px;
+    right: 33px;
+  }
+  .sect-8 a div {
+    font-size: 18px;
+  }
+  .sect-8 .payment-methods img {
+    max-width: 42px;
   }
 }
 /*# sourceMappingURL=style.css.map */

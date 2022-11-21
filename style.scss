@@ -166,8 +166,10 @@ table {
 }
 
 .banner {
-    // background: url(assets/background.png);
     background-color: #192451;
+    background: url(assets/CAPA_TECIDO.png);
+    background-size: cover;
+    background-repeat: no-repeat;
     padding: 235px 0px;
     background-size: cover;
     background-repeat: no-repeat;
@@ -629,6 +631,10 @@ table {
         display: flex;
         align-items: center;
         margin-top: 60px;
+
+        img {
+            max-width: 100%;
+        }
     }
 }
 
@@ -702,6 +708,10 @@ table {
         max-width: max-content;
         display: block;
         text-align: center;
+
+        b {
+            text-decoration: line-through;
+        }
 
 
         p {
@@ -857,6 +867,7 @@ table {
 footer {
     background-color: #192451;
     padding: 60px 0;
+    text-align: center;
 
     .container {
         display: flex;
@@ -957,6 +968,11 @@ footer {
         max-width: 360px;
     }
 
+    .banner {
+        background-image: none;
+        background-color: #192451;
+    }
+
     .banner .left-side {
         max-width: 100%;
 
@@ -977,6 +993,7 @@ footer {
 
         .infos {
             flex-direction: column;
+            margin: 0;
 
             p {
                 max-width: 100%;
@@ -1029,6 +1046,41 @@ footer {
             .module {
                 border-radius: 20px 20px 0 0;
                 padding: 27px 15px;
+            }
+        }
+    }
+
+    .sect-8 {
+        .oferta {
+            h4 {
+                flex-direction: column;
+                
+                p {
+                }
+
+                span {
+                    margin-bottom: 15px;
+                }
+
+                .highlight {
+                    &::before {
+                        top: 85px;
+                        right: 33px;
+                    }
+
+                }
+            }
+        }
+
+        a {
+            div {
+                font-size: 18px;
+            }
+        }
+
+        .payment-methods {
+            img {
+                max-width: 42px;
             }
         }
     }
