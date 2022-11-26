@@ -305,7 +305,6 @@ table {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
-  margin-top: 50px;
 }
 
 .sect-1 .services .left-side .infos img {
@@ -457,6 +456,11 @@ table {
   text-align: center;
   font-size: 20px;
   margin: 60px auto 90px auto;
+  font-weight: 500;
+}
+
+.sect-course-content {
+  background-color: #EEEEEE !important;
 }
 
 .sect-course-content .icon-title {
@@ -603,7 +607,6 @@ table {
 .sect-4 {
   position: relative;
   overflow: hidden;
-  background-color: #EEEEEE !important;
 }
 
 .sect-4 .bg-alvo {
@@ -811,8 +814,8 @@ table {
   max-width: -moz-max-content;
   max-width: max-content;
   margin: 0 auto;
-  -webkit-transition: 0.3s;
-  transition: 0.3s;
+  -webkit-transition: all 0.3s ease;
+  transition: all 0.3s ease;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -822,6 +825,11 @@ table {
           justify-content: center;
   -webkit-box-shadow: 2px 4px 0px 1px #B89344;
   box-shadow: 2px 4px 0px 1px #B89344;
+}
+
+.sect-8 a div:hover {
+  -webkit-transform: translateY(-6px);
+          transform: translateY(-6px);
 }
 
 .sect-8 a:hover div {
@@ -845,6 +853,7 @@ table {
   width: 90%;
   max-width: 1000px;
   margin: 70px auto;
+  margin-bottom: 0;
 }
 
 .sect-faq .accordion-item {
