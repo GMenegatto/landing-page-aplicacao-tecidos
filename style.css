@@ -168,7 +168,7 @@ table {
   background: url(assets/CAPA_TECIDO.png);
   background-size: cover;
   background-repeat: no-repeat;
-  padding: 235px 0px;
+  padding: 249px 0px;
   background-size: cover;
   background-repeat: no-repeat;
 }
@@ -196,7 +196,7 @@ table {
   font-size: 28px;
   font-weight: 600;
   color: #252525;
-  background-color: #D8B770;
+  background-color: #d8b770;
   border-radius: 40px;
   padding: 25px 25px 25px 25px;
   text-transform: uppercase;
@@ -210,8 +210,8 @@ table {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
-  -webkit-box-shadow: 2px 4px 0px 1px #B89344;
-  box-shadow: 2px 4px 0px 1px #B89344;
+  -webkit-box-shadow: 2px 4px 0px 1px #b89344;
+  box-shadow: 2px 4px 0px 1px #b89344;
 }
 
 .banner .left-side a:hover div {
@@ -247,7 +247,7 @@ table {
 }
 
 .title b {
-  background-color: #D8B770;
+  background-color: #d8b770;
   color: white;
   padding: 0 10px;
   text-shadow: 0px 0px 15px #00000052;
@@ -258,7 +258,7 @@ table {
 }
 
 .title.white b {
-  background-color: #D8B770;
+  background-color: #d8b770;
   color: white;
   text-shadow: 0px 0px 15px #00000052;
 }
@@ -369,6 +369,29 @@ table {
   margin-bottom: 20px;
 }
 
+.sect-fotos .fotos {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.sect-fotos .fotos .foto {
+  -webkit-box-flex: 0;
+      -ms-flex: 0 0 33.33%;
+          flex: 0 0 33.33%;
+  max-width: 33.33%;
+  padding: 0 10px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.sect-fotos .fotos .foto img {
+  display: block;
+  max-width: 100%;
+  -webkit-box-shadow: 0px 5px 20px -4px rgba(0, 0, 0, 0.171);
+  box-shadow: 0px 5px 20px -4px rgba(0, 0, 0, 0.171);
+}
+
 .sect-2 {
   position: relative;
   overflow: visible;
@@ -459,8 +482,15 @@ table {
   font-weight: 500;
 }
 
+.subtitle.custom {
+  margin: 0 auto;
+  margin-top: 40px;
+  font-size: 24px;
+  font-weight: 400;
+}
+
 .sect-course-content {
-  background-color: #EEEEEE !important;
+  background-color: #eeeeee !important;
 }
 
 .sect-course-content .icon-title {
@@ -494,7 +524,7 @@ table {
   width: 180px;
   display: block;
   background: white;
-  border: 5px solid #D8B770;
+  border: 5px solid #d8b770;
   border-radius: 16px;
   text-align: center;
   -webkit-box-shadow: 0px 5px 20px -4px rgba(0, 0, 0, 0.171);
@@ -542,7 +572,7 @@ table {
 }
 
 .sect-course-content .contents .course-content .module {
-  background-color: #D8B770;
+  background-color: #d8b770;
   border-top-left-radius: 23px;
   border-bottom-left-radius: 23px;
   padding: 47px 35px;
@@ -611,9 +641,9 @@ table {
 
 .sect-4 .bg-alvo {
   position: absolute;
-  right: -32%;
-  top: -300px;
-  max-height: 1256px;
+  right: -42%;
+  top: 40px;
+  max-height: 986px;
 }
 
 .sect-4 .method {
@@ -650,7 +680,7 @@ table {
 
 .sect-5 .certificado {
   max-width: 871px;
-  border: 10px solid #D8B770;
+  border: 10px solid #d8b770;
   margin: 0 auto;
   margin-top: 60px;
   display: block;
@@ -731,7 +761,7 @@ table {
 }
 
 .sect-8 .price b {
-  color: #E00D2A;
+  color: #e00d2a;
   background: none;
   font-weight: 400;
 }
@@ -773,7 +803,7 @@ table {
 .sect-8 .oferta h4 {
   position: relative;
   font-weight: bold;
-  font-family: 'Inter';
+  font-family: "Inter";
   margin: 25px 0;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -805,7 +835,7 @@ table {
 .sect-8 a div {
   font-size: 38px;
   font-weight: 600;
-  background-color: #D8B770;
+  background-color: #d8b770;
   border-radius: 40px;
   padding: 25px 45px;
   text-transform: uppercase;
@@ -823,8 +853,8 @@ table {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
-  -webkit-box-shadow: 2px 4px 0px 1px #B89344;
-  box-shadow: 2px 4px 0px 1px #B89344;
+  -webkit-box-shadow: 2px 4px 0px 1px #b89344;
+  box-shadow: 2px 4px 0px 1px #b89344;
 }
 
 .sect-8 a div:hover {
@@ -882,7 +912,7 @@ table {
 }
 
 .sect-faq .accordion-item-header::after {
-  font-family: 'Font Awesome 6 Free';
+  font-family: "Font Awesome 6 Free";
   font-weight: 900;
   content: "\f0da";
   font-size: 2rem;
@@ -957,10 +987,10 @@ footer .container h4 {
 
 .highlight::before {
   display: block;
-  content: '';
+  content: "";
   width: 20px;
   height: 98px;
-  background-color: #E00D2A;
+  background-color: #e00d2a;
   -webkit-transition: 1s all ease;
   transition: 1s all ease;
   position: absolute;
