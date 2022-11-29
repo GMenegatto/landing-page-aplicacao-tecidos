@@ -1042,7 +1042,8 @@ footer .container h4 {
     font-size: 18px;
   }
   .subtitle {
-    font-size: 18px;
+    font-size: 16px;
+    line-height: 26px;
   }
   .sect-course-content .contents .course-content .module-classes {
     gap: 5px;
@@ -1065,6 +1066,24 @@ footer .container h4 {
   .container {
     max-width: 360px;
   }
+  .sect-fotos p.subtitle {
+    margin: 40px auto 40px auto;
+    font-weight: 400;
+  }
+  .sect-fotos .fotos {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    gap: 40px;
+  }
+  .sect-fotos .fotos .foto {
+    max-width: 100%;
+    width: 100%;
+  }
   .banner {
     background-image: none;
     background-color: #192451;
@@ -1079,7 +1098,7 @@ footer .container h4 {
     font-size: 18px;
   }
   .title {
-    font-size: 28px;
+    font-size: 27px;
     line-height: 36px;
   }
   .sect-1 .services .left-side {
