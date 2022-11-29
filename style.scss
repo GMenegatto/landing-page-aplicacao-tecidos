@@ -949,7 +949,7 @@ footer {
 
   .subtitle {
     font-size: 16px;
-    line-height: 26px;
+    line-height: 22px;
   }
 
   .sect-course-content .contents .course-content .module-classes {
@@ -978,10 +978,19 @@ footer {
     max-width: 360px;
   }
 
+.subtitle {
+  font-weight: 400;
+}
+  
+
   .sect-fotos {
     p.subtitle {
       margin: 40px auto 40px auto;
       font-weight: 400;
+
+      b {
+        font-weight: 600;
+      }
     }
 
     .fotos {
@@ -1005,6 +1014,11 @@ footer {
     max-width: 100%;
 
     flex: 0 0 100%;
+
+    img {
+      max-width: 90%;
+      margin: 0 auto;
+    }
   }
 
   .banner .left-side a div {
@@ -1018,6 +1032,7 @@ footer {
 
   .sect-1 .services .left-side {
     flex-direction: column;
+    padding: 0 20px;
 
     .infos {
       flex-direction: column;
@@ -1061,6 +1076,10 @@ footer {
     }
   }
 
+  .bg-alvo {
+    right: -126% !important;
+  }
+
   .sect-course-content .contents {
     flex-direction: column;
     .course-content {
@@ -1076,6 +1095,11 @@ footer {
         padding: 27px 15px;
       }
     }
+  }
+
+  .sect-6 p {
+    font-size: 18px;
+    line-height: 26px;
   }
 
   .sect-8 {
@@ -1107,7 +1131,19 @@ footer {
 
     .payment-methods {
       img {
-        max-width: 42px;
+        max-width: 33px;
+      }
+    }
+  }
+
+.accordion-item-header {
+  font-weight: 400 !important;
+}
+
+  footer {
+    .container {
+      h4 {
+        font-size: 20px;
       }
     }
   }

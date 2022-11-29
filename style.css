@@ -1043,7 +1043,7 @@ footer .container h4 {
   }
   .subtitle {
     font-size: 16px;
-    line-height: 26px;
+    line-height: 22px;
   }
   .sect-course-content .contents .course-content .module-classes {
     gap: 5px;
@@ -1066,9 +1066,15 @@ footer .container h4 {
   .container {
     max-width: 360px;
   }
+  .subtitle {
+    font-weight: 400;
+  }
   .sect-fotos p.subtitle {
     margin: 40px auto 40px auto;
     font-weight: 400;
+  }
+  .sect-fotos p.subtitle b {
+    font-weight: 600;
   }
   .sect-fotos .fotos {
     -webkit-box-orient: vertical;
@@ -1094,6 +1100,10 @@ footer .container h4 {
         -ms-flex: 0 0 100%;
             flex: 0 0 100%;
   }
+  .banner .left-side img {
+    max-width: 90%;
+    margin: 0 auto;
+  }
   .banner .left-side a div {
     font-size: 18px;
   }
@@ -1106,6 +1116,7 @@ footer .container h4 {
     -webkit-box-direction: normal;
         -ms-flex-direction: column;
             flex-direction: column;
+    padding: 0 20px;
   }
   .sect-1 .services .left-side .infos {
     -webkit-box-orient: vertical;
@@ -1152,6 +1163,9 @@ footer .container h4 {
     width: 100%;
     margin-bottom: 20px;
   }
+  .bg-alvo {
+    right: -126% !important;
+  }
   .sect-course-content .contents {
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
@@ -1172,6 +1186,10 @@ footer .container h4 {
     border-radius: 20px 20px 0 0;
     padding: 27px 15px;
   }
+  .sect-6 p {
+    font-size: 18px;
+    line-height: 26px;
+  }
   .sect-8 .oferta h4 {
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
@@ -1189,7 +1207,13 @@ footer .container h4 {
     font-size: 18px;
   }
   .sect-8 .payment-methods img {
-    max-width: 42px;
+    max-width: 33px;
+  }
+  .accordion-item-header {
+    font-weight: 400 !important;
+  }
+  footer .container h4 {
+    font-size: 20px;
   }
 }
 /*# sourceMappingURL=style.css.map */
