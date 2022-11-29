@@ -1117,7 +1117,7 @@ footer {
         .highlight {
           &::before {
             top: 85px;
-            right: 33px;
+            left: 33px;
           }
         }
       }
@@ -1138,6 +1138,8 @@ footer {
 
 .accordion-item-header {
   font-weight: 400 !important;
+
+  font-size: 18px !important;
 }
 
   footer {
