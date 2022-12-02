@@ -162,13 +162,19 @@
 
         <div class="fotos">
           <div class="foto">
-            <img src="assets/FOTOS/Sem Título-6.png" alt="" />
+            <div class="image">
+              <img src="assets/FOTOS/Sem Título-6.png" alt="" />
+            </div>
           </div>
           <div class="foto">
-            <img src="assets/FOTOS/Sem Título-1.png" alt="" />
+            <div class="image">
+              <img src="assets/FOTOS/Sem Título-1.png" alt="" />
+            </div>
           </div>
           <div class="foto">
-            <img src="assets/FOTOS/Sem Título-4.png" alt="" />
+            <div class="image">
+              <img src="assets/FOTOS/Sem Título-4.png" alt="" />
+            </div>
           </div>
         </div>
 
@@ -556,6 +562,26 @@
       </div>
     </footer>
   </body>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+
+  <script>
+      const containers = document.querySelectorAll('.foto');
+      const defaultItem = document.querySelector('.default');
+
+      containers.forEach(f => f.addEventListener('mouseenter', function () {
+          containers.forEach(e => {
+              e.classList.remove('active');
+          })
+          f.classList.add('active')
+      }))
+
+      containers.forEach(f => f.addEventListener('mouseleave', function () {
+
+          f.classList.remove('active')
+          defaultItem.classList.add('active')
+      }))
+  </script>
 
   <script src="app.js"></script>
   <script src="scroll.js"></script>

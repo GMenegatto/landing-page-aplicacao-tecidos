@@ -357,12 +357,21 @@ table {
   }
   .fotos {
     display: flex;
+    min-height: 470px;
+
+    gap: 30px;
 
     .foto {
-      flex: 0 0 33.33%;
-      max-width: 33.33%;
-      padding: 0 10px;
+      flex: 1;
       box-sizing: border-box;
+      transition: 0.4s;
+      align-self: center;
+
+      &.active {
+        flex: 0 0 36%;
+
+      
+    }
 
       img {
         display: block;
@@ -1001,6 +1010,7 @@ footer {
       .foto {
         max-width: 100%;
         width: 100%;
+        
       }
     }
   }
