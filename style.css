@@ -665,6 +665,9 @@ table {
   display: -ms-flexbox;
   display: flex;
   gap: 10px;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
 }
 
 .sect-4 {
@@ -1102,14 +1105,19 @@ footer .container h4 {
     width: 100%;
   }
   .banner {
-    background-image: none;
-    background-color: #192451;
+    background-image: -webkit-gradient(linear, left top, left bottom, color-stop(24%, rgba(25, 36, 81, 0)), to(#192451)), url("assets/bg_mobile.png");
+    background-image: linear-gradient(180deg, rgba(25, 36, 81, 0) 24%, #192451 100%), url("assets/bg_mobile.png");
+    background-position: center;
+    padding-top: 370px;
   }
   .banner .left-side {
     max-width: 100%;
     -webkit-box-flex: 0;
         -ms-flex: 0 0 100%;
             flex: 0 0 100%;
+  }
+  .banner .left-side a {
+    display: none;
   }
   .banner .left-side img {
     max-width: 90%;

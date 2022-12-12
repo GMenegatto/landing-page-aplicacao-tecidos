@@ -988,6 +988,7 @@ footer {
     max-width: 360px;
   }
 
+
 .subtitle {
   font-weight: 400;
 }
@@ -1016,13 +1017,22 @@ footer {
     }
   }
 
+
+  
   .banner {
-    background-image: none;
-    background-color: #192451;
+    background-image:
+    linear-gradient(180deg, rgba(25,36,81,0) 24%, rgba(25,36,81,1) 100%),
+    url('assets/bg_mobile.png');
+    background-position: center;
+    padding-top: 370px;
   }
 
   .banner .left-side {
     max-width: 100%;
+
+    a {
+      display: none;
+    }
 
     flex: 0 0 100%;
 
