@@ -430,6 +430,19 @@ table {
   overflow: visible;
 }
 
+.sect-2 .poligono {
+  width: 138px;
+  display: block;
+  margin: 0 auto;
+  position: absolute;
+  margin-left: auto;
+  margin-right: auto;
+  left: 0;
+  right: 0;
+  text-align: center;
+  top: 0;
+}
+
 .sect-2 .seta {
   position: absolute;
   bottom: -35px;
@@ -452,6 +465,10 @@ table {
           align-items: center;
 }
 
+.sect-2 .title {
+  margin-bottom: 20px;
+}
+
 .sect-2 .left-side {
   -webkit-box-flex: 0;
       -ms-flex: 0 0 40%;
@@ -465,28 +482,53 @@ table {
   -webkit-box-flex: 0;
       -ms-flex: 0 0 60%;
           flex: 0 0 60%;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
+}
+
+.sect-2 .right-side img {
+  margin: 0 auto;
+  margin-bottom: 20px;
+}
+
+.sect-2 .right-side .lista h3 {
+  text-align: center;
+  font-size: 32px;
+  font-weight: 500;
+  margin-bottom: 30px;
+}
+
+.sect-2 .right-side .lista .itens .item {
+  background-color: #D9D9D9;
+}
+
+.sect-2 .right-side .lista .itens .item p {
+  text-align: center;
+  font-size: 20px;
+  color: #192451;
+  height: 75px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  padding: 0 45px;
+}
+
+.sect-2 .right-side .lista .itens .item.white {
+  background-color: white;
 }
 
 .sect-2 h2 {
-  color: white;
-  text-align: left;
-}
-
-.sect-2 p {
-  margin-top: 20px;
-  color: white;
-  font-size: 20px;
-  line-height: 27px;
-  text-align: left;
-}
-
-.sect-2 p b {
+  text-transform: initial;
   font-weight: 500;
-  color: white;
+  text-align: left;
+}
+
+.sect-2 h2 span {
+  font-weight: bold;
 }
 
 .sect-3 i {
@@ -1160,7 +1202,29 @@ footer .container h4 {
     text-align: center;
   }
   .sect-2 .left-side {
+    margin-bottom: 40px;
+  }
+  .sect-2 .left-side img {
     display: none;
+  }
+  .sect-2 .right-side .lista h3 {
+    font-size: 20px;
+  }
+  .sect-2 .right-side .lista .itens .item p {
+    text-align: center;
+    font-size: 14px;
+    color: #192451;
+    height: 75px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    padding: 0 22px;
   }
   .title-icon {
     text-align: center;

@@ -112,35 +112,6 @@
       </div>
     </section>
 
-    <!-- <section class="sect-2 bg-azul foto section">
-      <div class="container reveal">
-        <div class="left-side">
-          <img class="image-with-down-shadow" src="assets/foto-1.png" />
-        </div>
-
-        <div class="right-side">
-          <i class="fa-solid fa-chalkboard-user title-icon"></i>
-          <h2 class="title white">
-            <b>O que vou aprender</b> no mestre do tecido de parede?
-          </h2>
-
-          <p>
-            O Mestre do Tecido de Parede é um curso completo que te ensinará o
-            passo a passo necessário para você dominar a técnica de aplicação de
-            tecido em parede e conquistar uma renda de até 6 mil reais mensais
-            trabalhando de maneira flexível e com baixo investimento.
-            <br /><br />
-            Aprenda a realizar um serviço completo e aproveite as inúmeras
-            oportunidades que esse novo mercado tem. Seja um pioneiro na
-            aplicação de tecido em parede na sua cidade e alavanque suas vendas
-            oferecendo novidade e custo-benefício aos seus clientes!
-          </p>
-        </div>
-      </div>
-
-      <img class="seta" src="assets/seta.svg" />
-    </section> -->
-
     <section class="sect-fotos bg-azul section">
       <div class="poligono">
         <img src="assets/poligono.svg" alt="" />
@@ -195,6 +166,80 @@
           </div>
           <div class="foto">
             <img src="assets/FOTOS/Sem Título-2.png" alt="" />
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="sect-2 section txt-branca">
+      <div class="poligono">
+        <img src="assets/seta-blue.svg" alt="" />
+      </div>
+      <div class="container reveal">
+        <div class="left-side">
+          <h2 class="title">
+            <span class="bold">Mas afinal...</span> <br />Qual a diferença
+            <br />entre o <b>tecido e o papel de parede?</b>
+          </h2>
+          <img src="assets/seta-afinal.svg" alt="">
+        </div>
+
+        <div class="right-side">
+          <div class="lista esq">
+            <img src="assets/check-full.svg" alt="">
+            <h3>Tecido de parede</h3>
+
+            <div class="itens">
+              <div class="item">
+                <p>Forma de aplicação que não danifica a parede</p>
+              </div>
+              <div class="item white">
+                <p>Preço de custo abaixo do papel</p>
+              </div>
+              <div class="item">
+                <p>Instalação prática, rápida e
+                  sem sujeira e sem emendas</p>
+              </div>
+              <div class="item white">
+                <p>Esconde furos e imperfeições</p>
+              </div>
+              <div class="item">
+                <p>Cliente não precisa gastar com reforma antes</p>
+              </div>
+              <div class="item white">
+                <p>Poucos concorrentes aplicando tecido de parede</p>
+              </div>
+              <div class="item">
+                <p>Facilidade em aplicar vários tecidos no mesmo dia</p>
+              </div>
+            </div>
+          </div>
+          <div class="lista dir">
+            <img src="assets/check-white.svg" alt="">
+            <h3>Papel de parede</h3>
+            <div class="itens">
+              <div class="item">
+                <p>Emendas começam a descolar com o tempo</p>
+              </div>
+              <div class="item white">
+                <p>Papéis de qualidade são importados e muito caros</p>
+              </div>
+              <div class="item">
+                <p>Emendas visíveis e aplicação mais trabalhosa</p>
+              </div>
+              <div class="item white">
+                <p>A parede precisa estar em ótimas condições</p>
+              </div>
+              <div class="item">
+                <p>Parede deve estar com massa corrida e sanca de gesso</p>
+              </div>
+              <div class="item white">
+                <p>Muitos concorrentes aplicando papel de parede</p>
+              </div>
+              <div class="item">
+                <p>Trabalho demorado, precisa de mais tempo e cuidado</p>
+              </div>
+            </div>
           </div>
         </div>
       </div>
@@ -363,7 +408,6 @@
                 <i class="fa-solid fa-check"></i
                 ><span>Custo operacional quase zero</span>
               </p>
-
             </div>
           </div>
         </div>
@@ -567,21 +611,24 @@
   <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
 
   <script>
-      const containers = document.querySelectorAll('.foto');
-      const defaultItem = document.querySelector('.default');
+    const containers = document.querySelectorAll(".foto");
+    const defaultItem = document.querySelector(".default");
 
-      containers.forEach(f => f.addEventListener('mouseenter', function () {
-          containers.forEach(e => {
-              e.classList.remove('active');
-          })
-          f.classList.add('active')
-      }))
+    containers.forEach((f) =>
+      f.addEventListener("mouseenter", function () {
+        containers.forEach((e) => {
+          e.classList.remove("active");
+        });
+        f.classList.add("active");
+      })
+    );
 
-      containers.forEach(f => f.addEventListener('mouseleave', function () {
-
-          f.classList.remove('active')
-          defaultItem.classList.add('active')
-      }))
+    containers.forEach((f) =>
+      f.addEventListener("mouseleave", function () {
+        f.classList.remove("active");
+        defaultItem.classList.add("active");
+      })
+    );
   </script>
 
   <script src="app.js"></script>
