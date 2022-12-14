@@ -183,9 +183,6 @@ table {
 
   position: relative;
 
-  .poligono {
-    display: none;
-  }
 
   .left-side {
     flex: 0 0 40%;
@@ -276,7 +273,6 @@ table {
 
   .poligono {
     width: 138px;
-    display: block;
     margin: 0 auto;
     position: absolute;
     margin-left: auto;

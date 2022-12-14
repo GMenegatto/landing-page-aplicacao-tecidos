@@ -182,10 +182,6 @@ table {
   position: relative;
 }
 
-.banner .poligono {
-  display: none;
-}
-
 .banner .left-side {
   -webkit-box-flex: 0;
       -ms-flex: 0 0 40%;
@@ -282,7 +278,6 @@ table {
 
 .sect-1 .poligono {
   width: 138px;
-  display: block;
   margin: 0 auto;
   position: absolute;
   margin-left: auto;
