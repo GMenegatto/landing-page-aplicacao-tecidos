@@ -272,6 +272,20 @@ table {
 }
 
 .sect-1 {
+  position: relative;
+
+  .poligono {
+    width: 138px;
+    display: block;
+    margin: 0 auto;
+    position: absolute;
+    margin-left: auto;
+    margin-right: auto;
+    left: 0;
+    right: 0;
+    text-align: center;
+    top: 0;
+  }
   .services {
     display: flex;
     margin-top: 60px;
@@ -394,6 +408,7 @@ table {
     }
   }
 }
+
 
 .sect-2 {
   position: relative;
