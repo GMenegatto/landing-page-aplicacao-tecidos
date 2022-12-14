@@ -1111,6 +1111,10 @@ footer {
 
   .sect-2 .container {
     flex-direction: column;
+
+    b {
+      padding: 0 !important;
+    }
   }
 
   .sect-2 h2 {
@@ -1119,7 +1123,9 @@ footer {
 
   .sect-2 .left-side {
     img {
-      display: none;
+      margin: 0 auto;
+      max-width: 70px;
+      margin-top: 40px;
     }
     margin-bottom: 40px;
   }

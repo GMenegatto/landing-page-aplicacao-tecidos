@@ -1198,6 +1198,9 @@ footer .container h4 {
         -ms-flex-direction: column;
             flex-direction: column;
   }
+  .sect-2 .container b {
+    padding: 0 !important;
+  }
   .sect-2 h2 {
     text-align: center;
   }
@@ -1205,7 +1208,9 @@ footer .container h4 {
     margin-bottom: 40px;
   }
   .sect-2 .left-side img {
-    display: none;
+    margin: 0 auto;
+    max-width: 70px;
+    margin-top: 40px;
   }
   .sect-2 .right-side .lista h3 {
     font-size: 20px;
