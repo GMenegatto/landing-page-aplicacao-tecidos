@@ -688,6 +688,14 @@ table {
 }
 
 .sect-5 {
+
+
+  .icon-title {
+display: none;
+      max-width: 100px;
+      margin: 0 auto;
+      margin-bottom: 30px;
+  }
   .title {
     color: white;
   }
@@ -1137,6 +1145,14 @@ footer {
   }
 
   .sect-5 {
+
+    .icon-title {
+display: block;
+      max-width: 45px;
+      margin: 0 auto;
+      margin-bottom: 20px;
+  }
+
     padding: 60px 0;
     .title {
       font-size: 22px;

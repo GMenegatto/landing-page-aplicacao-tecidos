@@ -777,6 +777,12 @@ table {
   line-height: 30px;
 }
 
+.sect-5 .icon-title {
+  max-width: 100px;
+  margin: 0 auto;
+  margin-bottom: 30px;
+}
+
 .sect-5 .title {
   color: white;
 }
@@ -1220,6 +1226,11 @@ footer .container h4 {
   }
   .sect-5 {
     padding: 60px 0;
+  }
+  .sect-5 .icon-title {
+    max-width: 66px;
+    margin: 0 auto;
+    margin-bottom: 20px;
   }
   .sect-5 .title {
     font-size: 22px;
