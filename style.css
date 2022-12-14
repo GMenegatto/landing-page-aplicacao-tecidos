@@ -778,6 +778,7 @@ table {
 }
 
 .sect-5 .icon-title {
+  display: none;
   max-width: 100px;
   margin: 0 auto;
   margin-bottom: 30px;
@@ -1228,7 +1229,8 @@ footer .container h4 {
     padding: 60px 0;
   }
   .sect-5 .icon-title {
-    max-width: 66px;
+    display: block;
+    max-width: 45px;
     margin: 0 auto;
     margin-bottom: 20px;
   }
