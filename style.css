@@ -159,6 +159,14 @@ table {
   padding: 0 20px;
 }
 
+.mobile {
+  display: none;
+}
+
+.no-mobile {
+  display: block;
+}
+
 .bg-blue {
   background-color: #192451;
 }
@@ -171,6 +179,11 @@ table {
   padding: 249px 0px;
   background-size: cover;
   background-repeat: no-repeat;
+  position: relative;
+}
+
+.banner .poligono {
+  display: none;
 }
 
 .banner .left-side {
@@ -1122,6 +1135,27 @@ footer .container h4 {
   .container {
     max-width: 360px;
   }
+  .mobile {
+    display: block;
+  }
+  .no-mobile {
+    display: none;
+  }
+  .banner {
+    position: relative;
+  }
+  .banner .poligono {
+    width: 68px;
+    display: block;
+    margin: 0 auto;
+    position: absolute;
+    margin-left: auto;
+    margin-right: auto;
+    left: 0;
+    right: 0;
+    text-align: center;
+    bottom: -33px;
+  }
   .subtitle {
     font-weight: 400;
   }
@@ -1208,9 +1242,7 @@ footer .container h4 {
     margin-bottom: 40px;
   }
   .sect-2 .left-side img {
-    margin: 0 auto;
-    max-width: 70px;
-    margin-top: 40px;
+    display: none;
   }
   .sect-2 .right-side .lista h3 {
     font-size: 20px;
