@@ -1215,8 +1215,11 @@ footer .container h4 {
     font-size: 18px;
   }
   .title {
-    font-size: 27px;
+    font-size: 25px;
     line-height: 36px;
+  }
+  .sect-5 .title {
+    font-size: 22px;
   }
   .sect-1 .services .left-side {
     -webkit-box-orient: vertical;
