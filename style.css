@@ -388,6 +388,32 @@ table {
   background-image: url(assets/bg-azul-foto.png);
 }
 
+.whatsapp {
+  z-index: 123123;
+  position: fixed;
+  right: 20px;
+  bottom: 20px;
+  background: #25D366;
+  height: 70px;
+  width: 70px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  border-radius: 60px;
+  padding: 10px;
+}
+
+.whatsapp i {
+  color: white;
+  font-size: 62px;
+}
+
 .title-icon {
   font-size: 58px;
   color: white;
@@ -1071,12 +1097,26 @@ footer .container {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
-  gap: 20px;
+  gap: 10px;
+}
+
+footer .container a {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
 }
 
 footer .container a,
 footer .container h4 {
   font-size: 24px;
+  color: white;
+}
+
+footer .container i {
+  font-size: 24px;
+  -ms-flex-item-align: center;
+      -ms-grid-row-align: center;
+      align-self: center;
   color: white;
 }
 
@@ -1367,8 +1407,28 @@ footer .container h4 {
     font-weight: 400 !important;
     font-size: 18px !important;
   }
+  footer {
+    padding-bottom: 130px;
+  }
+  footer .container {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: reverse;
+        -ms-flex-direction: column-reverse;
+            flex-direction: column-reverse;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
   footer .container h4 {
-    font-size: 20px;
+    font-size: 18px;
+  }
+  footer .container a {
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
   }
 }
 /*# sourceMappingURL=style.css.map */
