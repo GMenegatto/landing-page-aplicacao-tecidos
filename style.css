@@ -171,18 +171,42 @@ table {
   background-color: #192451;
 }
 
-.banner {
-  background-color: #192451;
+.about {
   background: url(assets/CAPA_TECIDO.webp);
   background-size: cover;
   background-repeat: no-repeat;
-  padding: 249px 0px;
-  background-size: cover;
-  background-repeat: no-repeat;
-  position: relative;
+  padding: 200px 0px;
 }
 
-.banner .left-side {
+.about i {
+  font-size: 78px;
+  color: white;
+}
+
+.about b {
+  font-weight: bold;
+  color: white;
+}
+
+.about .icon-title {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-bottom: 40px;
+  gap: 25px;
+}
+
+.about .icon-title h2 {
+  font-weight: bold;
+  color: white;
+  font-size: 38px;
+  text-transform: uppercase;
+}
+
+.about .left-side {
   -webkit-box-flex: 0;
       -ms-flex: 0 0 40%;
           flex: 0 0 40%;
@@ -194,6 +218,89 @@ table {
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
+}
+
+.about p {
+  color: white;
+  font-size: 20px;
+  line-height: 30px;
+}
+
+.problemas .container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  text-align: center;
+  gap: 40px;
+  padding: 0 200px;
+}
+
+.problemas .container h2 {
+  font-weight: bold;
+  color: #1B2952;
+  font-size: 32px;
+}
+
+.problemas .container p {
+  font-size: 24px;
+}
+
+.problemas .container .red-bg {
+  background-color: #d71844;
+  padding: 20px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.problemas .container .red-bg p {
+  color: white;
+}
+
+.banner {
+  background-color: #192451;
+  background: url(assets/bg-azul2.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  padding: 159px 0px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  position: relative;
+}
+
+.banner .left-side {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.banner .left-side img {
+  max-width: 450px;
+  display: block;
+  margin: 0 auto;
+}
+
+.banner .left-side h2 {
+  color: white;
+  text-align: center;
+  font-size: 40px;
+  font-weight: bold;
+  margin-top: 60px;
+  line-height: 50px;
 }
 
 .banner .left-side a {
@@ -615,6 +722,112 @@ table {
   font-weight: 400;
 }
 
+.sect-quanto {
+  position: relative;
+  padding-bottom: 0 !important;
+  overflow: inherit;
+}
+
+.sect-quanto .icon-title {
+  display: block;
+  text-align: center;
+  font-size: 78px;
+  margin-bottom: 30px;
+}
+
+.sect-quanto .subtitle {
+  font-weight: 400;
+  line-height: 27px;
+  padding: 0 250px;
+  margin-bottom: 40px;
+}
+
+.sect-quanto .subtitle b {
+  font-weight: bold;
+}
+
+.sect-quanto .advice {
+  background-color: #1B2952;
+  display: block;
+  margin: 0 auto;
+  padding: 20px 30px;
+  max-width: 680px;
+  position: relative;
+  top: 47px;
+}
+
+.sect-quanto .advice h2 {
+  color: white;
+  font-weight: bold;
+  font-style: italic;
+  font-size: 24px;
+  text-align: center;
+  line-height: 27px;
+}
+
+.sect-meu-obj {
+  background-color: #eeeeee !important;
+}
+
+.sect-meu-obj .title {
+  font-size: 24px;
+  margin-bottom: 100px;
+}
+
+.sect-meu-obj .rabisco {
+  top: -236px;
+  margin: 0 auto;
+  display: block;
+  max-width: 308px;
+  position: relative;
+}
+
+.sect-meu-obj .rabisco img {
+  position: absolute;
+}
+
+.sect-meu-obj .item {
+  text-align: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  max-width: 990px;
+  margin: 0 auto;
+  gap: 10px;
+  margin-bottom: 40px;
+}
+
+.sect-meu-obj .item h2 {
+  display: block;
+  font-size: 32px;
+  font-weight: bold;
+  color: white;
+  background: #1b2952;
+  max-width: -webkit-max-content;
+  max-width: -moz-max-content;
+  max-width: max-content;
+  padding: 5px 15px;
+  border-radius: 4px;
+}
+
+.sect-meu-obj .item h3 {
+  font-weight: bold;
+  color: #1b2952;
+  font-size: 24px;
+}
+
+.sect-meu-obj .item p {
+  font-size: 24px;
+  color: #1b2952;
+}
+
 .sect-course-content {
   background-color: #eeeeee !important;
 }
@@ -771,7 +984,7 @@ table {
 .sect-4 .bg-alvo {
   position: absolute;
   right: -42%;
-  top: 40px;
+  top: 200px;
   max-height: 986px;
 }
 
@@ -877,6 +1090,43 @@ table {
 .sect-8 .container {
   position: relative;
   z-index: 3;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.sect-8 .container > span {
+  font-size: 24px;
+  font-weight: 500;
+  line-height: 33px;
+  text-align: center;
+}
+
+.sect-8 .subtitle {
+  font-weight: 400;
+  font-size: 24px;
+  margin-bottom: 40px;
+}
+
+.sect-8 .subtitle b {
+  font-weight: bold;
+}
+
+.sect-8 h3 {
+  font-size: 34px;
+  margin-bottom: 60px;
+}
+
+.sect-8 h3 b {
+  font-weight: bold;
+  text-transform: uppercase;
 }
 
 .sect-8 .bg-fogo {
@@ -897,7 +1147,7 @@ table {
 }
 
 .sect-8 .price b {
-  color: #e00d2a;
+  color: #12ad07;
   background: none;
   font-weight: 400;
 }
@@ -917,6 +1167,10 @@ table {
   height: 100%;
 }
 
+.sect-8 .title {
+  font-style: italic;
+}
+
 .sect-8 .oferta {
   margin: 70px auto;
   max-width: -webkit-max-content;
@@ -934,6 +1188,7 @@ table {
   color: #192451;
   font-size: 38px;
   opacity: 0.7;
+  margin-bottom: 30px;
 }
 
 .sect-8 .oferta h4 {
@@ -971,7 +1226,8 @@ table {
 .sect-8 a div {
   font-size: 38px;
   font-weight: 600;
-  background-color: #d8b770;
+  background-color: #12ad07;
+  color: white !important;
   border-radius: 40px;
   padding: 25px 45px;
   text-transform: uppercase;
@@ -989,8 +1245,6 @@ table {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
-  -webkit-box-shadow: 2px 4px 0px 1px #b89344;
-  box-shadow: 2px 4px 0px 1px #b89344;
 }
 
 .sect-8 a div:hover {
@@ -998,10 +1252,67 @@ table {
           transform: translateY(-6px);
 }
 
+.sect-8 a div span, .sect-8 a div i {
+  color: white;
+}
+
 .sect-8 a:hover div {
-  background-color: #e6ae37;
-  -webkit-box-shadow: 2px 4px 0px 1px #cf9d31;
-  box-shadow: 2px 4px 0px 1px #cf9d31;
+  background-color: #117e09;
+}
+
+.agora a {
+  font-size: 38px;
+  font-weight: 600;
+  background-color: #12ad07;
+  color: white !important;
+  border-radius: 40px;
+  padding: 25px 45px;
+  text-transform: uppercase;
+  margin-top: 40px;
+  max-width: -webkit-max-content;
+  max-width: -moz-max-content;
+  max-width: max-content;
+  margin: 0 auto;
+  -webkit-transition: all 0.3s ease;
+  transition: all 0.3s ease;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  gap: 10px;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+}
+
+.agora a span, .agora a i {
+  color: white;
+}
+
+.agora .container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  gap: 60px;
+  margin-bottom: 80px;
+}
+
+.agora .container i {
+  font-size: 280px;
+}
+
+.agora .container h3 {
+  font-size: 23px;
+  line-height: 35px;
+}
+
+.agora .container h3 b {
+  font-weight: bold;
 }
 
 .sect-faq .title i {
@@ -1090,6 +1401,16 @@ footer {
   text-align: center;
 }
 
+footer p {
+  display: block;
+  max-width: 960px;
+  font-size: 20px;
+  line-height: 25px;
+  font-weight: 400;
+  margin-top: 40px;
+  color: white;
+}
+
 footer .container {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -1140,7 +1461,7 @@ footer .container i {
   content: "";
   width: 20px;
   height: 98px;
-  background-color: #e00d2a;
+  background-color: #12ad07;
   -webkit-transition: 1s all ease;
   transition: 1s all ease;
   position: absolute;
