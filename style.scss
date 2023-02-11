@@ -178,6 +178,8 @@ table {
   background-repeat: no-repeat;
   padding: 200px 0px;
 
+  background-position: center;
+
   i {
     font-size: 78px;
     color: white;
@@ -216,7 +218,10 @@ table {
   }
 }
 
+
+
 .problemas {
+  padding-bottom: 0;
   
   .container {
     display: flex;
@@ -230,6 +235,7 @@ table {
     h2 {
       font-weight: bold;
       color: #1B2952;
+      text-align: center;
       font-size: 32px;
     }
 
@@ -1323,6 +1329,16 @@ footer {
     padding: 82px 0px;
   }
 
+  .sect-quanto .subtitle {
+    padding: 0;
+  }
+
+  .problemas {
+    .container {
+    padding: 0 40px;
+    }
+  }
+
   .title {
     font-size: 38px;
     line-height: 50px;
@@ -1381,6 +1397,7 @@ footer {
 
   .banner {
     position: relative;
+    background: #192451;
 
     .poligono {
       width: 68px;
@@ -1422,15 +1439,89 @@ footer {
     }
   }
 
+  .sect-meu-obj {.item {
+    
+    h3 {
+      font-size: 22px;
+      margin: 5px 0;
+    }
+    p {
+    font-size: 18px;
+  }
+  }
+  }
+  .sect-quanto {
+    .subtitle {
+      margin-bottom: 0 !important;
+    }
+  }
+
+  .agora {
+    .container {
+      h3 {
+        font-size: 25px;
+      }
+
+      a {
+        font-size: 26px !important;
+      }
+
+      i {
+        font-size: 180px;
+      }
+    }
+  }
+
+.problemas {
+padding-bottom: 0;
+  .container {
+    gap: 30px;
+    h2 {
+      font-size: 25px;
+    }
+
+    p {
+      font-size: 18px;
+    }
+  }
+
+}
+
+  .about {
+padding: 80px 0;
+    background-image: url("assets/bg-azul4.png");
+
+    i {
+      font-size: 42px;
+    }
+
+    .icon-title {
+justify-content: center;
+      h2 {
+        font-size: 28px;
+      }
+    }
+
+    p {
+      text-align: center;
+      font-size: 18px;
+    }
+
+    .left-side {
+      max-width: 100%;
+      flex: 1;
+    }
+  }
+
   .banner {
-    background-image: linear-gradient(
-        180deg,
-        rgba(25, 36, 81, 0) 24%,
-        rgba(25, 36, 81, 1) 100%
-      ),
-      url("assets/bg_mobile.webp");
+  //   background-image: linear-gradient(
+  //       180deg,
+  //       rgba(25, 36, 81, 0) 24%,
+  //       rgba(25, 36, 81, 1) 100%
+  //     ),
+  //     url("assets/bg_mobile.webp");
     background-position: center;
-    padding-top: 370px;
+    // padding-top: 370px;
   }
 
   .banner .left-side {
@@ -1445,6 +1536,12 @@ footer {
     img {
       max-width: 90%;
       margin: 0 auto;
+    }
+
+    h2 {
+      font-size: 32px;
+      line-height: 31px;
+      font-weight: bold;
     }
   }
 
@@ -1585,6 +1682,22 @@ footer {
   }
 
   .sect-8 {
+
+    h3 {
+      font-size: 24px;
+    margin-bottom: 60px;
+    text-align: center;
+    line-height: 27px;
+    }
+
+    .subtitle {
+      font-size: 22px;
+    }
+
+    & > span {
+      font-size: 20px !important;
+    }
+
     .oferta {
       h4 {
         flex-direction: column;
