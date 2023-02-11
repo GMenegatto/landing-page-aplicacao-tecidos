@@ -1583,11 +1583,20 @@ footer .container i {
   .sect-quanto .subtitle {
     margin-bottom: 0 !important;
   }
-  .agora .container h3 {
-    font-size: 25px;
-  }
-  .agora .container a {
+  .agora a {
     font-size: 26px !important;
+  }
+  .agora .container {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  .agora .container h3 {
+    font-size: 22px;
   }
   .agora .container i {
     font-size: 180px;

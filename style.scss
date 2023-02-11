@@ -1457,14 +1457,17 @@ footer {
   }
 
   .agora {
+    a {
+      font-size: 26px !important;
+    }
     .container {
+      flex-direction: column;
+      justify-content: center;
       h3 {
-        font-size: 25px;
+        font-size: 22px;
       }
 
-      a {
-        font-size: 26px !important;
-      }
+
 
       i {
         font-size: 180px;
