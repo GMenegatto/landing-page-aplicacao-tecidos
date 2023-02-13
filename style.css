@@ -171,6 +171,35 @@ table {
   background-color: #192451;
 }
 
+.botao-verde {
+  font-size: 38px;
+  font-weight: 600;
+  background-color: #12ad07;
+  color: white !important;
+  border-radius: 40px;
+  padding: 25px 45px;
+  text-transform: uppercase;
+  margin-top: 40px;
+  max-width: -webkit-max-content;
+  max-width: -moz-max-content;
+  max-width: max-content;
+  margin: 0 auto;
+  -webkit-transition: all 0.3s ease;
+  transition: all 0.3s ease;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  gap: 10px;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  margin-top: 60px;
+}
+
+.botao-verde span, .botao-verde i {
+  color: white;
+}
+
 .about {
   background: url(assets/LP_capa.png);
   background-size: cover;
@@ -419,9 +448,9 @@ table {
       -ms-flex-align: center;
           align-items: center;
   -webkit-box-orient: vertical;
-  -webkit-box-direction: reverse;
-      -ms-flex-direction: column-reverse;
-          flex-direction: column-reverse;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
 }
 
 .sect-1 .services .left-side {
@@ -1102,6 +1131,11 @@ table {
   position: relative;
 }
 
+.sect-8 span b {
+  color: red;
+  text-decoration: line-through;
+}
+
 .sect-8 .container {
   position: relative;
   z-index: 3;
@@ -1592,8 +1626,11 @@ footer .container i {
   .sect-quanto .subtitle {
     margin-bottom: 0 !important;
   }
+  .botao-verde {
+    font-size: 18px;
+  }
   .agora a {
-    font-size: 26px !important;
+    font-size: 18px !important;
   }
   .agora .container {
     -webkit-box-orient: vertical;
@@ -1628,6 +1665,8 @@ footer .container i {
   }
   .about .photo {
     display: block;
+    -webkit-box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.25);
+            box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.25);
   }
   .about i {
     font-size: 42px;
