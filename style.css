@@ -196,8 +196,42 @@ table {
   margin-top: 60px;
 }
 
-.botao-verde span, .botao-verde i {
+.botao-verde span,
+.botao-verde i {
   color: white;
+}
+
+.reuniao .container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  text-align: center;
+}
+
+.reuniao .container i {
+  font-size: 90px;
+  margin-bottom: 32px;
+}
+
+.reuniao .container p {
+  font-size: 32px;
+  max-width: 600px;
+  font-weight: 400;
+}
+
+.reuniao .container h3 {
+  font-size: 40px;
+  font-weight: bold;
+  display: block;
+  margin-bottom: 32px;
+  max-width: 600px;
 }
 
 .about {
@@ -1301,7 +1335,8 @@ table {
           transform: translateY(-6px);
 }
 
-.sect-8 a div span, .sect-8 a div i {
+.sect-8 a div span,
+.sect-8 a div i {
   color: white;
 }
 
@@ -1333,7 +1368,8 @@ table {
   justify-content: center;
 }
 
-.agora a span, .agora a i {
+.agora a span,
+.agora a i {
   color: white;
 }
 

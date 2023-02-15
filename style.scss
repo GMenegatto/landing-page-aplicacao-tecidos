@@ -173,7 +173,7 @@ table {
 }
 
 .botao-verde {
-    font-size: 38px;
+  font-size: 38px;
   font-weight: 600;
   background-color: #12ad07;
   color: white !important;
@@ -196,11 +196,39 @@ table {
   justify-content: center;
   margin-top: 60px;
 
-  span,i {
+  span,
+  i {
     color: white;
   }
-  }
+}
 
+.reuniao {
+  .container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+
+    i {
+      font-size: 90px;
+      margin-bottom: 32px;
+    }
+
+    p {
+      font-size: 32px;
+      max-width: 600px;
+      font-weight: 400;
+    }
+
+    h3 {
+      font-size: 40px;
+      font-weight: bold;
+      display: block;
+      margin-bottom: 32px;
+      max-width: 600px;
+    }
+  }
+}
 
 .about {
   background: url(assets/LP_capa.png);
@@ -262,7 +290,7 @@ table {
 
 .problemas {
   padding-bottom: 0;
-  
+
   .container {
     display: flex;
     justify-content: center;
@@ -306,7 +334,7 @@ table {
   background-repeat: no-repeat;
 
   position: relative;
-  
+
 
   .left-side {
     // flex: 0 0 40%;
@@ -323,7 +351,7 @@ table {
     h2 {
       color: white;
       text-align: center;
-      font-size:40px;
+      font-size: 40px;
       font-weight: bold;
       margin-top: 60px;
       line-height: 50px;
@@ -421,6 +449,7 @@ table {
     text-align: center;
     top: 0;
   }
+
   .services {
     display: flex;
     margin-top: 60px;
@@ -495,21 +524,21 @@ table {
 .whatsapp {
   z-index: 123123;
   position: fixed;
-    right: 20px;
-    bottom: 20px;
-    background: #25D366;
-    height: 70px;
-    width: 70px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    border-radius: 60px;
-    padding: 10px;
+  right: 20px;
+  bottom: 20px;
+  background: #25D366;
+  height: 70px;
+  width: 70px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 60px;
+  padding: 10px;
 
-    i {
-      color: white;
-      font-size: 62px;
-    }
+  i {
+    color: white;
+    font-size: 62px;
+  }
 }
 
 .title-icon {
@@ -538,6 +567,7 @@ table {
     margin: 80px auto 80px auto;
     font-weight: 400;
   }
+
   .fotos {
     display: flex;
     min-height: 470px;
@@ -623,9 +653,11 @@ table {
         font-weight: 500;
         margin-bottom: 30px;
       }
+
       .itens {
         .item {
           background-color: #d9d9d9;
+
           p {
             text-align: center;
             font-size: 20px;
@@ -696,12 +728,14 @@ table {
   position: relative;
   padding-bottom: 0 !important;
   overflow: inherit;
+
   .icon-title {
     display: block;
     text-align: center;
     font-size: 78px;
     margin-bottom: 30px;
   }
+
   .subtitle {
     font-weight: 400;
     line-height: 27px;
@@ -721,6 +755,7 @@ table {
     max-width: 680px;
     position: relative;
     top: 47px;
+
     h2 {
       color: white;
       font-weight: bold;
@@ -761,6 +796,7 @@ table {
     margin: 0 auto;
     gap: 10px;
     margin-bottom: 40px;
+
     h2 {
       display: block;
       font-size: 32px;
@@ -777,6 +813,7 @@ table {
       color: #1b2952;
       font-size: 24px;
     }
+
     p {
       font-size: 24px;
       color: #1b2952;
@@ -946,6 +983,7 @@ table {
     margin: 0 auto;
     margin-bottom: 30px;
   }
+
   .title {
     color: white;
   }
@@ -1024,7 +1062,7 @@ table {
     flex-direction: column;
     align-items: center;
 
-    & > span {
+    &>span {
       font-size: 24px;
       font-weight: 500;
       line-height: 33px;
@@ -1036,6 +1074,7 @@ table {
     font-weight: 400;
     font-size: 24px;
     margin-bottom: 40px;
+
     b {
       font-weight: bold;
     }
@@ -1044,6 +1083,7 @@ table {
   h3 {
     font-size: 34px;
     margin-bottom: 60px;
+
     b {
       font-weight: bold;
       text-transform: uppercase;
@@ -1160,7 +1200,8 @@ table {
         transform: translateY(-6px);
       }
 
-      span,i {
+      span,
+      i {
         color: white;
       }
     }
@@ -1177,30 +1218,31 @@ table {
 
   a {
     font-size: 38px;
-  font-weight: 600;
-  background-color: #12ad07;
-  color: white !important;
-  border-radius: 40px;
-  padding: 25px 45px;
-  text-transform: uppercase;
-  margin-top: 40px;
-  max-width: -webkit-max-content;
-  max-width: -moz-max-content;
-  max-width: max-content;
-  margin: 0 auto;
-  -webkit-transition: all 0.3s ease;
-  transition: all 0.3s ease;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  gap: 10px;
-  -webkit-box-pack: center;
-  -ms-flex-pack: center;
-  justify-content: center;
+    font-weight: 600;
+    background-color: #12ad07;
+    color: white !important;
+    border-radius: 40px;
+    padding: 25px 45px;
+    text-transform: uppercase;
+    margin-top: 40px;
+    max-width: -webkit-max-content;
+    max-width: -moz-max-content;
+    max-width: max-content;
+    margin: 0 auto;
+    -webkit-transition: all 0.3s ease;
+    transition: all 0.3s ease;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    gap: 10px;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
 
-  span,i {
-    color: white;
-  }
+    span,
+    i {
+      color: white;
+    }
   }
 
   .container {
@@ -1210,7 +1252,7 @@ table {
     gap: 60px;
     margin-bottom: 80px;
 
-    
+
 
     i {
       font-size: 280px;
@@ -1218,11 +1260,11 @@ table {
 
     h3 {
       font-size: 23px;
-    line-height: 35px;
+      line-height: 35px;
 
-    b {
-      font-weight: bold;
-    }
+      b {
+        font-weight: bold;
+      }
     }
   }
 }
@@ -1382,7 +1424,7 @@ footer {
 
   .problemas {
     .container {
-    padding: 0 40px;
+      padding: 0 40px;
     }
   }
 
@@ -1486,34 +1528,39 @@ footer {
     }
   }
 
-  .sect-meu-obj {.item {
-    
-    h3 {
-      font-size: 22px;
-      margin: 5px 0;
+  .sect-meu-obj {
+    .item {
+
+      h3 {
+        font-size: 22px;
+        margin: 5px 0;
+      }
+
+      p {
+        font-size: 18px;
+      }
     }
-    p {
-    font-size: 18px;
   }
-  }
-  }
+
   .sect-quanto {
     .subtitle {
       margin-bottom: 0 !important;
     }
   }
 
-  .botao-verde { 
-  font-size: 18px;
+  .botao-verde {
+    font-size: 18px;
   }
 
   .agora {
     a {
       font-size: 18px !important;
     }
+
     .container {
       flex-direction: column;
       justify-content: center;
+
       h3 {
         font-size: 22px;
       }
@@ -1526,23 +1573,25 @@ footer {
     }
   }
 
-.problemas {
-padding-bottom: 0;
-  .container {
-    gap: 30px;
-    h2 {
-      font-size: 25px;
+  .problemas {
+    padding-bottom: 0;
+
+    .container {
+      gap: 30px;
+
+      h2 {
+        font-size: 25px;
+      }
+
+      p {
+        font-size: 18px;
+      }
     }
 
-    p {
-      font-size: 18px;
-    }
   }
 
-}
-
   .about {
-padding: 80px 0;
+    padding: 80px 0;
     background: #192451;
 
     .photo {
@@ -1555,7 +1604,8 @@ padding: 80px 0;
     }
 
     .icon-title {
-justify-content: center;
+      justify-content: center;
+
       h2 {
         font-size: 28px;
       }
@@ -1573,12 +1623,12 @@ justify-content: center;
   }
 
   .banner {
-  //   background-image: linear-gradient(
-  //       180deg,
-  //       rgba(25, 36, 81, 0) 24%,
-  //       rgba(25, 36, 81, 1) 100%
-  //     ),
-  //     url("assets/bg_mobile.webp");
+    //   background-image: linear-gradient(
+    //       180deg,
+    //       rgba(25, 36, 81, 0) 24%,
+    //       rgba(25, 36, 81, 1) 100%
+    //     ),
+    //     url("assets/bg_mobile.webp");
     background-position: center;
     // padding-top: 370px;
   }
@@ -1622,6 +1672,7 @@ justify-content: center;
     }
 
     padding: 60px 0;
+
     .title {
       font-size: 22px;
     }
@@ -1662,6 +1713,7 @@ justify-content: center;
     img {
       display: none;
     }
+
     margin-bottom: 40px;
   }
 
@@ -1671,6 +1723,7 @@ justify-content: center;
         h3 {
           font-size: 20px;
         }
+
         .itens {
           .item {
             p {
@@ -1720,6 +1773,7 @@ justify-content: center;
 
   .sect-course-content .contents {
     flex-direction: column;
+
     .course-content {
       flex-direction: column;
 
@@ -1744,16 +1798,16 @@ justify-content: center;
 
     h3 {
       font-size: 24px;
-    margin-bottom: 60px;
-    text-align: center;
-    line-height: 27px;
+      margin-bottom: 60px;
+      text-align: center;
+      line-height: 27px;
     }
 
     .subtitle {
       font-size: 22px;
     }
 
-    & > span {
+    &>span {
       font-size: 20px !important;
     }
 
@@ -1761,8 +1815,7 @@ justify-content: center;
       h4 {
         flex-direction: column;
 
-        p {
-        }
+        p {}
 
         span {
           margin-bottom: 15px;
@@ -1798,10 +1851,12 @@ justify-content: center;
 
   footer {
     padding-bottom: 130px;
+
     .container {
       flex-direction: column-reverse;
       justify-content: center;
       align-items: center;
+
       h4 {
         font-size: 18px;
       }
