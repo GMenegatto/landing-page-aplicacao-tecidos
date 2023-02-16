@@ -385,12 +385,20 @@ table {
 
   position: relative;
 
+  &.row {
+    padding: 60px 0;
+  }
+
 
   .left-side {
     // flex: 0 0 40%;
     // max-width: 40%;
     display: flex;
     flex-direction: column;
+
+
+
+
 
     img {
       max-width: 450px;
@@ -437,6 +445,23 @@ table {
           -webkit-box-shadow: 2px 4px 0px 1px #cf9d31;
           box-shadow: 2px 4px 0px 1px #cf9d31;
         }
+      }
+    }
+
+    &.row {
+      flex-direction: row;
+      align-items: center;
+
+      gap: 40px;
+
+      h2 {
+        text-align: left;
+        font-size: 32px;
+        margin: 0;
+      }
+
+      img {
+        max-width: 290px;
       }
     }
   }
