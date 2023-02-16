@@ -1506,17 +1506,17 @@ footer {
     font-weight: 400;
   }
 
-.reuniao {
-  .container {
-    p {
-      font-size: 25px;
-    }
+  .reuniao {
+    .container {
+      p {
+        font-size: 25px;
+      }
 
-    h3 {
-      font-size: 25px;
+      h3 {
+        font-size: 25px;
+      }
     }
   }
-}
 
   .sect-fotos {
     p.subtitle {
@@ -1864,6 +1864,10 @@ footer {
   footer {
     padding-bottom: 130px;
 
+    p {
+      font-size: 16px;
+    }
+
     .container {
       flex-direction: column-reverse;
       justify-content: center;
@@ -1878,4 +1882,29 @@ footer {
       }
     }
   }
+}
+
+#_form_1_ ._form-title {
+  font-size: 28px !important;
+  line-height: 28px !important;
+  margin-bottom: 20px !important;
+}
+
+#_form_1_ ._full_width {
+  button {
+    background: #192451 !important;
+    font-size: 18px;
+    margin-top: 20px;
+    /* margin: 0 auto; */
+    display: block;
+    width: 100%;
+  }
+}
+
+#_form_1_ * {
+  font-family: "Roboto";
+}
+
+#_form_1_ {
+  max-width: 800px !important;
 }

@@ -1916,6 +1916,9 @@ footer .container i {
   footer {
     padding-bottom: 130px;
   }
+  footer p {
+    font-size: 16px;
+  }
   footer .container {
     -webkit-box-orient: vertical;
     -webkit-box-direction: reverse;
@@ -1936,5 +1939,28 @@ footer .container i {
         -ms-flex-align: center;
             align-items: center;
   }
+}
+
+#_form_1_ ._form-title {
+  font-size: 28px !important;
+  line-height: 28px !important;
+  margin-bottom: 20px !important;
+}
+
+#_form_1_ ._full_width button {
+  background: #192451 !important;
+  font-size: 18px;
+  margin-top: 20px;
+  /* margin: 0 auto; */
+  display: block;
+  width: 100%;
+}
+
+#_form_1_ * {
+  font-family: "Roboto";
+}
+
+#_form_1_ {
+  max-width: 800px !important;
 }
 /*# sourceMappingURL=style.css.map */
