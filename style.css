@@ -1631,6 +1631,12 @@ footer .container i {
   .subtitle {
     font-weight: 400;
   }
+  .reuniao .container p {
+    font-size: 25px;
+  }
+  .reuniao .container h3 {
+    font-size: 25px;
+  }
   .sect-fotos p.subtitle {
     margin: 40px auto 40px auto;
     font-weight: 400;
