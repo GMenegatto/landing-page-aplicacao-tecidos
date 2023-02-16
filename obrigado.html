@@ -1,13 +1,139 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
+
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="style.css" />
-    <title>Document</title>
+    <title>Mestre do Tecido de Parede</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;900&family=Roboto:wght@300;400;500;700&display=swap"
+        rel="stylesheet" />
+
+    <link href="assets/fontawesome/css/all.css" rel="stylesheet" />
+
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon" />
+    <link rel="icon" href="favicon.ico" type="image/x-icon" />
+
+    <meta name="theme-color" content="#192451" />
+
+    <!-- Facebook Meta Tags -->
+    <meta property="og:url" content="https://mestredotecidodeparede.com.br/" />
+    <meta property="og:type" content="website" />
+    <meta property="og:title" content="Mestre do Tecido de Parede" />
+    <meta property="og:description"
+        content="O Mestre do Tecido de Parede é um curso completo que te ensinará o passo a passo necessário para você dominar a técnica de aplicação de tecido em parede e conquistar uma renda de até 6 mil reais" />
+    <meta property="description"
+        content="O Mestre do Tecido de Parede é um curso completo que te ensinará o passo a passo necessário para você dominar a técnica de aplicação de tecido em parede e conquistar uma renda de até 6 mil reais" />
+    <meta property="og:image" content="https://mestredotecidodeparede.com.br/assets/og-image.png" />
+
+    <!-- Twitter Meta Tags -->
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta property="twitter:domain" content="mestredotecidodeparede.com.br/" />
+    <meta property="twitter:url" content="https://mestredotecidodeparede.com.br/" />
+    <meta name="twitter:title" content="Mestre do Tecido de Parede" />
+    <meta name="twitter:description"
+        content="O Mestre do Tecido de Parede é um curso completo que te ensinará o passo a passo necessário para você dominar a técnica de aplicação de tecido em parede e conquistar uma renda de até 6 mil reais" />
+    <meta name="twitter:image" content="https://mestredotecidodeparede.com.br/assets/og-image.png" />
+
+
+
 </head>
-<body class="container">
-    <h1 style="font-size: 48px; margin-top: 60px;">Valeus entra no grupo ae</h1>
+
+<body>
+    <section class="banner bg-azul">
+        <div id="first-reveal" class="container reveal">
+            <div class="left-side">
+                <img src="assets/logo.png" />
+                <h2>Ganhe dinheiro prestando serviço com alto valor agregado,
+                    trabalhando com flexibilidade e sem concorrência </h2>
+            </div>
+        </div>
+    </section>
+
+    <div class="section obrigado">
+        <div class="container">
+            <h2>Estamos quase lá</h2>
+
+            <div class="progress2 progress-moved">
+                <div class="progress-bar2">
+                </div>
+            </div>
+
+            <p>Sua inscrição está quase confirmada, verifique sua caixa de entrada e
+                clique no
+                botão abaixo para entrar em nosso grupo do WhatsApp
+                e receber
+                mais informações</p>
+
+            <a class="whatsapp-icon">
+                <div>
+                    <i class="fab fa-whatsapp"></i>
+                </div>
+                <div>
+                    <p>ENTRAR NO GRUPO DO WHATSAPP</p>
+                </div>
+            </a>
+        </div>
+    </div>
+
+
+    <footer>
+        <div class="container">
+            <a>
+                <img src="assets/email-icon.svg" alt="">
+                &nbsp;
+
+                <h4>contato@mestredotecidodeparede.com.br</h4>
+            </a>
+            &nbsp;
+            <a href="https://wa.me/5519984302644" target="_blank">
+                <i class="fab fa-whatsapp"></i>
+                &nbsp;
+
+                <h4>19 98430-2644</h4>
+            </a>
+        </div>
+        <div class="container">
+            <p>O produto vendido neste site não deve ser interpretado como
+                promessa ou garantia de resultados.
+                Seu nível de sucesso dependerá
+                da sua dedicação em seguir os aprendizados propostos. Para sua
+                segurança, é seu direito 7 dias de garantia. Caso você não goste, ou não
+                se adapte ao meu Curso, basta solicitar ao suporte reembolso em 7 dias
+                contados a partir da compra, devolvemos 100% do valor.</p>
+        </div>
+    </footer>
 </body>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+
+<script>
+    const containers = document.querySelectorAll(".foto");
+    const defaultItem = document.querySelector(".default");
+
+    containers.forEach((f) =>
+        f.addEventListener("mouseenter", function () {
+            containers.forEach((e) => {
+                e.classList.remove("active");
+            });
+            f.classList.add("active");
+        })
+    );
+
+    containers.forEach((f) =>
+        f.addEventListener("mouseleave", function () {
+            f.classList.remove("active");
+            defaultItem.classList.add("active");
+        })
+    );
+</script>
+
+<script src="app.js"></script>
+<script src="scroll.js"></script>
+
 </html>
