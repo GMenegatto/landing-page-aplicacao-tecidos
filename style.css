@@ -232,7 +232,8 @@ table {
   margin-top: 80px;
 }
 
-.obrigado .whatsapp-icon i, .obrigado .whatsapp-icon p {
+.obrigado .whatsapp-icon i,
+.obrigado .whatsapp-icon p {
   font-size: 40px;
   color: white;
 }
@@ -479,17 +480,20 @@ table {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  gap: 40px;
+  gap: 80px;
 }
 
 .banner .left-side.row h2 {
   text-align: left;
-  font-size: 32px;
+  font-size: 28px;
   margin: 0;
+  line-height: 40px;
 }
 
 .banner .left-side.row img {
-  max-width: 290px;
+  max-width: 210px;
+  position: relative;
+  top: -16px;
 }
 
 .image-with-down-shadow {
@@ -2051,7 +2055,8 @@ footer .container i {
   max-width: 800px !important;
 }
 
-#_form_1_ ._form-label, #_form_1_ ._form_element ._form-label {
+#_form_1_ ._form-label,
+#_form_1_ ._form_element ._form-label {
   font-weight: bold;
   margin-bottom: 5px;
   display: block;
@@ -2059,7 +2064,10 @@ footer .container i {
   margin-bottom: 10px;
 }
 
-#_form_1_ input[type="text"], #_form_1_ input[type="tel"], #_form_1_ input[type="date"], #_form_1_ textarea {
+#_form_1_ input[type="text"],
+#_form_1_ input[type="tel"],
+#_form_1_ input[type="date"],
+#_form_1_ textarea {
   padding: 16px !important;
 }
 
