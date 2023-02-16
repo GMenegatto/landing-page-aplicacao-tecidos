@@ -1839,9 +1839,15 @@ footer .container i {
     -webkit-box-direction: normal !important;
         -ms-flex-direction: column !important;
             flex-direction: column !important;
+    gap: 30px !important;
   }
   .banner .row h2 {
     text-align: center !important;
+    font-size: 22px !important;
+    line-height: 25px !important;
+  }
+  .obrigado h2 {
+    font-size: 28px;
   }
   .banner .left-side {
     max-width: 100%;

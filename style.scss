@@ -1752,10 +1752,19 @@ footer {
 
     .row {
       flex-direction: column !important;
+      gap: 30px !important;
 
       h2 {
         text-align: center !important;
+        font-size: 22px !important;
+        line-height: 25px !important;
       }
+    }
+  }
+
+  .obrigado {
+    h2 {
+      font-size: 28px;
     }
   }
 
