@@ -1813,8 +1813,35 @@ footer .container i {
         -ms-flex: 1;
             flex: 1;
   }
+  .obrigado p {
+    font-size: 24px;
+  }
+  .whatsapp-icon p {
+    font-size: 20px !important;
+    text-align: left;
+  }
+  .obrigado .whatsapp-icon {
+    gap: 0;
+    background-color: #19C35D;
+    border-radius: 10px;
+  }
+  .obrigado .whatsapp-icon div {
+    background-color: transparent;
+    height: 100px;
+    border-radius: 0;
+    padding: 0 15px;
+  }
   .banner {
     background-position: center;
+  }
+  .banner .row {
+    -webkit-box-orient: vertical !important;
+    -webkit-box-direction: normal !important;
+        -ms-flex-direction: column !important;
+            flex-direction: column !important;
+  }
+  .banner .row h2 {
+    text-align: center !important;
   }
   .banner .left-side {
     max-width: 100%;
