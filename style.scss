@@ -260,6 +260,11 @@ table {
     align-items: center;
     text-align: center;
 
+    span {
+      position: relative;
+    top: -16px;
+    }
+
     i {
       font-size: 90px;
       margin-bottom: 32px;
